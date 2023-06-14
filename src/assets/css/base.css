@@ -43,15 +43,15 @@ button {
     vertical-align: middle;
 }
 
-body{
+/* body{
     min-width: 1160px;
     font-family: PingFang SC,Helvetica Neue,Helvetica,Avenir Next,Avenir,Hiragino Sans GB,Microsoft YaHei,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif!important;
 }
 
 body ,input{
-    font: 12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5b8b\4f53,sans-serif;
+    font: 16px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5b8b\4f53,sans-serif;
     outline:none;
-}
+} */
 /* 
  */
 @import 'http://at.alicdn.com/t/c/font_4112883_cgvc3stxf6t.css'
