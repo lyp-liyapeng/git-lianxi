@@ -27,9 +27,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
+body{
+
+}
 .nav{
   margin-left: 200px;
-  background: #ecececec;
 }
 .header{
   width: 100%;

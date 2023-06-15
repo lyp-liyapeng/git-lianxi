@@ -8,10 +8,11 @@ import 'normalize.css'
 
 import '@/assets/css/base.css'
 
+import api from "@/api/index";
+
+Vue.prototype.$api = api;
 
 
-// Vue.echarts = echarts;
-// console.log(echarts);
 Vue.config.productionTip = false
 
 new Vue({

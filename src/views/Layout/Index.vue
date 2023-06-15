@@ -35,7 +35,12 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.Content{
+  transition: ease .4s;
+}
 .Content1{
  margin-left: -136px;
+ height: 100%;
+
 }
 </style>
