@@ -24,7 +24,7 @@
           </el-menu-item>
           <el-submenu index="/product">
               <template slot="title">
-                  <i class="el-icon-location"></i>
+                  <i class="el-icon-s-cooperation"></i>
                   <span slot="title">产品管理</span>
               </template>
               <el-menu-item-group>
@@ -34,34 +34,25 @@
           </el-submenu>
           <el-submenu index="/order">
               <template slot="title">
-                  <i class="el-icon-location"></i>
+                  <i class="el-icon-s-cooperation"></i>
                   <span slot="title">订单管理</span>
               </template>
               <el-menu-item-group>
-                  <el-menu-item index="/order/orderlist">订单列表</el-menu-item>
-                  <el-menu-item index="/order/collect">汇总清单</el-menu-item>
-                  <el-menu-item index="/order/check">订单审核</el-menu-item>
+                  <el-menu-item index="/order/orderlist"><i class="el-icon-tickets"></i>订单列表</el-menu-item>
+                  <el-menu-item index="/order/collect"><i class="el-icon-tickets"></i>汇总清单</el-menu-item>
+                  <el-menu-item index="/order/check"><i class="el-icon-tickets"></i>订单审核</el-menu-item>
               </el-menu-item-group>
           </el-submenu>
           <el-submenu index="/adv">
               <template slot="title">
-                  <i class="el-icon-location"></i>
+                  <i class="el-icon-s-cooperation"></i>
                   <span slot="title">广告分类</span>
               </template>
               <el-menu-item-group>
-                  <el-menu-item index="/adv/advlist">广告列表</el-menu-item>
+                  <el-menu-item index="/adv/advlist"><i class="el-icon-tickets"></i>广告列表</el-menu-item>
               </el-menu-item-group>
           </el-submenu>
-          <el-submenu index="/system">
-              <template slot="title">
-                  <i class="el-icon-location"></i>
-                  <span slot="title">系统管理</span>
-              </template>
-              <el-menu-item-group>
-                  <el-menu-item index="/system/role">角色管理</el-menu-item>
-                  <el-menu-item index="/system/department">部分管理</el-menu-item>
-              </el-menu-item-group>
-          </el-submenu>
+          
       </el-menu>
   </div>
 </template>
