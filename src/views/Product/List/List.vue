@@ -65,7 +65,7 @@
           <el-table-column type="selection" width="55"> </el-table-column>
           <el-table-column prop="id" label="商品编号" width="100"  >
           </el-table-column>
-          <el-table-column prop="title" label="商品名称" show-overflow-tooltip>
+          <el-table-column prop="title" label="商品名称" show-overflow-tooltip width="150">
           </el-table-column>
           <el-table-column
             prop="price"
@@ -102,12 +102,14 @@
               <el-button
                 size="mini"
                 type="primary"
+                icon="el-icon-plus"
                 @click="handleEdit(scope.$index, scope.row)"
                 >编辑</el-button
               >
               <el-button
                 size="mini"
                 type="danger"
+                icon="el-icon-delete"
                 @click="handleDelete(scope.$index, scope.row)"
                 >删除</el-button
               >
